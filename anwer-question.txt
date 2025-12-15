@@ -1,0 +1,26 @@
+¿Qué es más conveniente usar "polimorfismo real" o 
+"polimorfismo con OverRiding" y ¿por qué la elección?
+
+polimorfismo con overriding
+el porque es, cada animal debe actuar según su naturaleza
+
+Un humano habla
+Un perro ladra
+Un puerco gruñe
+
+es decir,  tratar todos los objetos de la misma manera, 
+pero cada uno se comporta apropiadamente, si agrego un una nueva clase e.g.
+cheto, solo necesito implementar su metodo. 
+
+respuesta de la consola: 
+Actuar como Juana, una Humano especial
+Ladrar como Perro
+Grunir como Puerco
+
+porque el otro no; polimorfismo real
+(sin overriding), todos mostrarían lo mismo.
+Juana perdería su personalidad de "Humano especial"
+Perro no podría "ladrar"
+Puerco no podría "gruñir"
+Todos serían genéricos e indistinguibles
+es decir mis clases no las ocuparia porque todas ahrian lo mismo
